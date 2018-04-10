@@ -1,0 +1,17 @@
+2018-04-01T03:23:20+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-08T22:40:14+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in C:\xampp\htdocs\SW\wp-content\plugins\woocommerce-gateway-paypal-express-checkout\includes\class-wc-gateway-ppec-checkout-handler.php:704
+Stack trace:
+#0 C:\xampp\htdocs\SW\wp-content\plugins\woocommerce-gateway-paypal-express-checkout\includes\abstracts\abstract-wc-gateway-ppec.php(63): WC_Gateway_PPEC_Checkout_Handler->is_started_from_checkout_page()
+#1 C:\xampp\htdocs\SW\wp-content\plugins\woocommerce-gateway-paypal-express-checkout\includes\class-wc-gateway-ppec-with-paypal.php(12): WC_Gateway_PPEC->__construct()
+#2 C:\xampp\htdocs\SW\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(105): WC_Gateway_PPEC_With_PayPal->__construct()
+#3 C:\xampp\htdocs\SW\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#4 C:\xampp\htdocs\SW\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(40): WC_Payment_Gateways->__construct()
+#5 C:\xampp\htdocs\SW\wp-content\plugins\woo
+
+2018-04-09T15:55:19+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-09T15:55:54+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-04-09T15:56:41+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
